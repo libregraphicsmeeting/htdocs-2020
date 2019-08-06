@@ -1,0 +1,19 @@
+streams:
+ schemes:
+   theme:
+     type: ReadOnlyStream
+     prefixes:
+       '':
+         - user/themes/lgm-2020
+         - user/themes/quark
+
+grid-size: grid-lg
+header-fixed: true
+header-animated: true
+header-dark: false
+header-transparent: false
+sticky-footer: true
+blog-page: '/blog'
+spectre:
+  exp: false
+  icons: false

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'OSP-DIN';
+  src: url('../fonts/OSP-DIN.ttf')  format('truetype');
+}
+
+h1 {
+    font-family: 'OSP-DIN', sans-serif;
+    padding-bottom: 50px;
+}
