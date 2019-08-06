@@ -2,28 +2,13 @@
 
 Grav based website for the LGM 2020
 
-## Local install
+## Local setup
 
-The file tree will be as following:
+To get Grav to serve the LGM pages on your computer you need to first download the Grav zip package and then add the files from the LGM Git repository.
 
-```
-.htaccess
-grav/
-    users/
-        accounts/
-        config/
-        data/
-        pages/
-            ...
-        plugins/
-            error/
-            markdown-notices/
-            problems/
-        themes/
-            quark/
-            quark-lgm-2019/
-sync/
-```
+You can then start the php development server to see the result (at the time of writing, you'll need a patch for Grav to serve the files).
+
+Here are the details:
 
 - Create a new directory that will contain the website: that will be the the website directory.
 - Download Grav and put the zip file in the website directory
@@ -44,6 +29,28 @@ sync/
 - Start the php development web server at the root of the website directory (or setup Apache to serve the site):  
   `GRAV_BASEDIR="/grav" php -S localhost:8000 grav/system/router.php`
 - Go to `localhost:8000` with a browser.
+
+At the end of this process you should have a structure that is similar to:
+
+```
+lgm-2020/
+    .htaccess
+    grav/
+        users/
+            accounts/
+            config/
+            data/
+            pages/
+                ...
+            plugins/
+                error/
+                markdown-notices/
+                problems/
+            themes/
+                quark/
+                quark-lgm-2020/
+    sync/
+```
 
 ## Todo
 
