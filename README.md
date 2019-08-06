@@ -52,6 +52,12 @@ lgm-2020/
     sync/
 ```
 
+## Publishing the local files
+
+Currently, we do not plan to have a web UI for the website.
+
+You can simply create the file in your local Grav, add them to the Git repository and when you push them, the file will be deployed to the website (through a webhook on Github and a trivial `git update` script on the web server).
+
 ## Todo
 
 - We will have to check how to define the users and store them in git (or have different users in the local instance and online)
