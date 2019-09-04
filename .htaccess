@@ -2,8 +2,8 @@ AddType application/x-httpd-php7 .php
 
 RewriteEngine On
 
-RewriteCond %{REQUEST_URI} !^/2020/grav/
-RewriteRule ^$ /2020/grav [QSA]
+RewriteRule ^$ grav/ [L]
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^2020/(.*)$ /2020/grav/$1 [L,QSA]
+RewriteRule ^(?!grav/)(.+)$ grav/$1 [L,NC]
