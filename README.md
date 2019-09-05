@@ -22,10 +22,6 @@ Here are the details:
   - `git remote add origin https://github.com/libregraphicsmeeting/htdocs-2020.git`
   - `git fetch origin`
   - `git checkout --track origin/master`
-- Apply [the patch for running grav in its own directory](https://github.com/getgrav/grav/pull/2541):
-  - `cd grav`
-  - `wget https://patch-diff.githubusercontent.com/raw/getgrav/grav/pull/2541.diff`
-  - `git apply 2541`
 - Start the php development web server at the root of the website directory (or setup Apache to serve the site):  
   `GRAV_BASEDIR="/grav" php -S localhost:8000 grav/system/router.php`
 - Go to `localhost:8000` with a browser.
