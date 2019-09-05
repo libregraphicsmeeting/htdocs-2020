@@ -1,5 +1,9 @@
 absolute_urls: false
 
+custom_base_url: 'https://libregraphics.org/2020'
+session:
+  path: /2020
+
 home:
   alias: '/home'
 
