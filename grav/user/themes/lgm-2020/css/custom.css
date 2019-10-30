@@ -30,7 +30,7 @@ ul.dropdown-menu.show {
 
 @font-face {
     font-family:Poppins;
-    src:url("fonts/Poppins-SemiBold.ttf") format("truetype");
+    src:url("../fonts/Poppins-SemiBold.ttf") format("truetype");
 }
 
 body {
