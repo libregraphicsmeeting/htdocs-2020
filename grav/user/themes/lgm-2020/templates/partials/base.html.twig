@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="{{ grav.language.getActive ?: grav.config.site.default_lang }}">
+
+<head>
+{% block head deferred %}
+    <meta charset="utf-8" />
+    <title>{% if page.title %}{{ page.title|e('html') }} | {% endif %}{{ site.title|e('html') }}</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% include 'partials/metadata.html.twig' %}
+
+    <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png') }}" />
+    <link rel="canonical" href="{{ page.url(true, true) }}" />
+{% endblock head %}
+
+{% block stylesheets %}     
+    {% do assets.addCss('theme://css/bootstrap-reboot.min.css') %}
+    {% do assets.addCss('theme://css/bootstrap-grid.min.css') %}
+    {% do assets.addCss('theme://css/bootstrap.min.css') %}
+    {% do assets.addCss('theme://css/custom.css') %}
+
+{% endblock %}
+
+{% block javascripts %}
+    {% do assets.addJs('jquery', 101) %}    
+{% endblock %}
+
+{% block assets deferred %}
+    {{ assets.css()|raw }}
+    {{ assets.js()|raw }}
+{% endblock %}
+</head>
+
+<body>
+  base
+
+
+{% block navigation %}
+        {% include 'partials/navigation.html.twig' %}
+{% endblock %}
+  <main>
+{% block content %}{% endblock %} 
+
+{% block footer %}
+        {% include 'partials/footer.html.twig' %}
+{% endblock %}
+</main>
+</body>
+</html>
