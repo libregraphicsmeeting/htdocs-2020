@@ -1,4 +1,0 @@
-Redirect 301 index.html en/index.html
-
-RewriteRule ^-en-$ /en/index.html [R=permanent,L]
-RewriteRule ^-fr-$ /en/index.html [R=permanent,L] 
