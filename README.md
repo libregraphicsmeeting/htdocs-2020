@@ -6,7 +6,7 @@ Grav based website for the LGM 2020
 
 To get Grav to serve the LGM pages on your computer you need to first download the Grav zip package and then add the files from the LGM Git repository.
 
-You can then start the php development server to see the result (at the time of writing, you'll need a patch for Grav to serve the files).
+You can then start the php development server to see the result.
 
 Here are the details:
 
