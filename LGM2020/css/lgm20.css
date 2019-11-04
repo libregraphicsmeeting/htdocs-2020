@@ -1,0 +1,237 @@
+/* --- Navbar -- */
+
+.dropdown-menu {
+    background-color:#000;
+    border-color:transparent;
+}
+
+.dropdown-menu a {
+    color:#fff;
+}
+
+.navbar {
+    padding-top:2em;
+    padding-bottom:2em;
+}
+
+.card {
+    border-radius:0; 
+    height: 25em;
+}
+
+.card-pattern {
+    height: 25em;
+    background-image:url("img/pattern01-seamless.png");
+    opacity: 0.3;   
+}
+
+@media (max-width: 768px) {
+    .card {
+        height: 35em;
+    }
+    .card-pattern {
+        height: 35em;
+    }
+}
+
+@media (max-width: 360px) {
+    .card {
+        height: 40em;
+    }
+    .card-pattern {
+        height: 40em;
+    }
+}
+
+.bg-dark {
+    background-color:black!important;
+}
+
+/* ---- Fonts */
+
+@font-face {
+    font-family:Poppins;
+    src:url("fonts/Poppins-SemiBold.ttf") format("truetype");
+}
+
+body {
+    font-family:Roboto, sans-serif;
+}
+
+p, ul {
+    font-size:16px;
+    text-align:justify;
+}
+
+h1, h2, h3, h4, h5, h6, nav,a {
+    font-family:Poppins;
+}
+
+h1 {
+    font-size:40px;
+}
+
+h2 {
+    font-size:32px;
+}
+
+h3 {
+    font-size:18px;
+}
+
+/* ---- Colors */
+
+.cor1 {
+    background-color:#51d5ea;
+}
+
+.cor2 {
+    background-color: #58f0cd;
+}
+
+.linkcor2 {
+    color:#51d5ea;
+}
+
+.linkcor2:hover {
+    color:white;
+}
+
+.cor3 {
+    background-color: #f05874ff;
+}
+
+.cor4 {
+    background-color:#fff;
+}
+
+.cor5 {
+    background-color:black;
+}
+
+.btn-cor1, .btn-cor1b {
+    background-color:#51d5ea;
+}
+
+.btn-cor1:hover {
+    background-color:transparent;
+    border:1px white solid;
+}
+
+.btn-cor1b:hover {
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+}
+
+a.btn-cor1:hover {
+    color:white;
+}
+
+.btn-cor2 {
+    background-color:#58f0cd;
+}
+
+.btn-cor2:hover {
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+}
+
+.btn-cor3 {
+    background-color: #f05874ff;
+    color:white;
+}
+
+.btn-cor3:hover {
+    background-color:transparent;
+    border:1px solid black;
+}
+
+.btn-cor5 {
+    background-color:black;
+    color:white;
+}
+
+.btn-cor5:hover {
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+}
+
+footer {
+    background-color:rgb(26, 24, 24);
+}
+
+a.indarklink {
+    color:black;
+}
+
+a.indarklink:hover {
+    color:white;
+}
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+    color:#51d5ea;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:white;
+}
+
+/* -- Home page */
+
+.homepage .card-title.text-center {
+    padding-top:150px;
+}
+
+.card-title, .shadow {
+    text-shadow:1px 1px 2px black;
+}
+
+section {
+    padding:100px 0;
+}
+
+.box1 {
+    background-color:rgba(255, 255, 255, 0.6);
+    border:1px solid white;
+    border-radius:8px;
+    padding:.5em;
+} 
+
+.bubble {
+    background-color:black;
+    border-radius:15px;
+    padding:.4em;
+}
+
+footer {
+    padding:50px 0;
+}
+
+footer ul li a {
+    color:white;
+}
+
+footer ul li {
+    list-style-type:none;
+}
+
+/* -- LMKJF */
+
+a.maplink {
+    color:black;
+}
+
+/* -- Contact */
+
+.contactpage {
+    height:200px;
+}
+
+.form-control {
+    background-color:black;
+    border-color:transparent;
+    color:white;
+}

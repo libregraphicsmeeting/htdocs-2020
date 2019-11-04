@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="260"
+   height="120"
+   viewBox="0 0 68.791665 31.750001"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="lgm2020Logo02-clean.svg"
+   inkscape:export-filename="lgm2020-logo-120.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#808080"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.70000001"
+     inkscape:cx="-733.92435"
+     inkscape:cy="130.81439"
+     inkscape:document-units="mm"
+     inkscape:current-layer="g2264"
+     showgrid="true"
+     units="px"
+     inkscape:window-width="1884"
+     inkscape:window-height="1051"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:snap-global="true">
+    <inkscape:grid
+       type="axonomgrid"
+       id="grid815"
+       units="px"
+       empspacing="3"
+       enabled="false"
+       spacingy="1.0583333" />
+    <inkscape:grid
+       type="xygrid"
+       id="grid828"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:date>2019</dc:date>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Timothée Giet</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-265.24998)"
+     style="display:inline;opacity:1" />
+  <g
+     inkscape:groupmode="layer"
+     id="g2264"
+     inkscape:label="lines"
+     style="display:inline"
+     transform="translate(0,-20.108333)">
+    <path
+       style="display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.74835503;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 1.0221163,27.096619 6.5055251,24.278949 2.5556826,-0.684793 16.611897,-4.451144 -0.684792,-2.55568 -16.6118966,4.451145 -5.135941,-19.167591 19.1675816,-5.135938 3.081565,11.500554 -3.833519,1.027188 -0.684792,-2.555679 2.555676,-0.684791 -0.684792,-2.555678 -5.111358,1.369585 2.054376,7.667035 8.944873,-2.396772 -4.451148,-16.611912 z m 27.9535527,2.096958 0.684792,2.555678 12.778378,-3.423957 2.739169,10.222716 -2.555673,0.684791 -0.342396,-1.277839 1.277833,-0.342395 -0.684792,-2.555679 -3.833518,1.027188 1.71198,6.389198 2.555685,-0.684794 5.111348,-1.369582 -4.108752,-15.334072 z m 19.442806,11.225325 2.739169,10.222716 16.611906,-4.451147 -4.451149,-16.611913 -15.334063,4.10875 0.684792,2.555679 12.778388,-3.423959 3.081564,11.500555 -11.500548,3.081563 -1.369584,-5.111358 1.277833,-0.342395 0.684792,2.55568 2.555685,-0.684794 -1.369584,-5.111358 z m -22.157392,-0.910866 0.684792,2.55568 2.396773,8.944876 19.167579,-5.135938 -0.684793,-2.555679 -16.611906,4.451147 -1.71198,-6.389197 2.555685,-0.684793 0.342396,1.277838 -1.277843,0.342397 0.684793,2.55568 3.833515,-1.027188 -1.711981,-6.389197 z"
+       id="rect1413-9"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+  </g>
+</svg>
