@@ -65,7 +65,12 @@ body {
 
 p, ul {
     font-size:16px;
-    text-align:justify;
+    text-align:justify;   
+    -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+     -ms-hyphens: auto;
+     -o-hyphens: auto;
+     hyphens: auto;
 }
 
 h1, h2, h3, h4, h5, h6, nav,a {
