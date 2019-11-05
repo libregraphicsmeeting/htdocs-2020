@@ -54,6 +54,11 @@
     src:url("fonts/Poppins-SemiBold.ttf") format("truetype");
 }
 
+@font-face {
+    font-family:Roboto;
+    src:url("fonts/Roboto-Regular.ttf") format("truetype");
+}
+
 body {
     font-family:Roboto, sans-serif;
 }
@@ -159,6 +164,10 @@ a.btn-cor1:hover {
     color:black;
 }
 
+.btn.disabled, .btn:disabled {
+    opacity: .75;
+}
+
 footer {
     background-color:rgb(26, 24, 24);
 }
@@ -182,7 +191,7 @@ a.indarklink:hover {
 /* -- Home page */
 
 .homepage .card-title.text-center {
-    padding-top:150px;
+    padding-top:40px;
 }
 
 .card-title, .shadow {
@@ -230,8 +239,28 @@ a.maplink {
     height:200px;
 }
 
-.form-control {
+#contactform .form-control {
     background-color:black;
     border-color:transparent;
     color:white;
+}
+
+#Confcall .form-control {
+    background-color:#eee;
+}
+
+.required {
+    border:1px solid black;
+}
+
+#Confcall label {
+    font-weight:bold;
+}
+
+#Confcall .form-group {
+    margin-top:2.5em;
+}
+
+.form-check label {
+    padding-left:0.8em;
 }
