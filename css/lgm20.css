@@ -25,6 +25,16 @@
     opacity: 0.3;   
 }
 
+#navbarSupportedContent {
+    position: relative;
+    top: -120px;
+}
+
+#callButtonMain {
+    position: relative;
+    top: 130px; 
+}
+
 @media (max-width: 768px) {
     .card {
         height: 35em;
