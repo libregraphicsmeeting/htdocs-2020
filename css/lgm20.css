@@ -18,7 +18,7 @@
     border-radius:0; 
     height: 33em;
 }
-
+/*
 .card-pattern {
     height: 25em;
     background-image:url("img/pattern01-seamless.png");
@@ -32,13 +32,14 @@
     display: block;
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto\9; /* ie8 
 }
 
 #callButtonMain {
     position: relative;
     top: 380px;
 }
+*/
 
 .bg-dark {
     background-color:black!important;
