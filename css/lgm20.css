@@ -177,6 +177,13 @@ a.btn-cor1:hover {
 
 footer {
     background-color:rgb(26, 24, 24);
+    background-image:url("img/pattern01-seamless-o30.png");
+}
+
+.footerContent {
+    padding-left: 1em;
+    background-color:rgb(26, 24, 24);
+    border-radius: 1em;
 }
 
 a.indarklink {
