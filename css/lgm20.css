@@ -16,13 +16,23 @@
 
 .card {
     border-radius:0; 
-    height: 25em;
+    height: 33em;
 }
 
 .card-pattern {
     height: 25em;
     background-image:url("img/pattern01-seamless.png");
     opacity: 0.3;   
+}
+
+#mainIllustration {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 #navbarSupportedContent {
@@ -32,25 +42,7 @@
 
 #callButtonMain {
     position: relative;
-    top: 130px; 
-}
-
-@media (max-width: 768px) {
-    .card {
-        height: 35em;
-    }
-    .card-pattern {
-        height: 35em;
-    }
-}
-
-@media (max-width: 360px) {
-    .card {
-        height: 40em;
-    }
-    .card-pattern {
-        height: 40em;
-    }
+    top: 380px;
 }
 
 .bg-dark {
