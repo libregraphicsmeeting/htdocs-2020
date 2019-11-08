@@ -35,11 +35,6 @@
     width: auto\9; /* ie8 */
 }
 
-#navbarSupportedContent {
-    position: relative;
-    top: -120px;
-}
-
 #callButtonMain {
     position: relative;
     top: 380px;
