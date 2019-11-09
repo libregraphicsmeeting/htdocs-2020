@@ -10,36 +10,32 @@
 }
 
 .navbar {
-    padding-top:2em;
-    padding-bottom:2em;
+    padding-top:1em;
+    padding-bottom:1em;
 }
 
 .card {
     border-radius:0; 
-    height: 33em;
-}
-/*
-.card-pattern {
-    height: 25em;
-    background-image:url("img/pattern01-seamless.png");
-    opacity: 0.3;   
 }
 
-#mainIllustration {
-    float: none;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    max-width: 100%;
-    height: auto;
-    width: auto\9; /* ie8 
+
+@media (max-width: 768px) {
+    .card {
+        height: 35em;
+    }
+    .card-pattern {
+        height: 35em;
+    }
 }
 
-#callButtonMain {
-    position: relative;
-    top: 380px;
+@media (max-width: 360px) {
+    .card {
+        height: 40em;
+    }
+    .card-pattern {
+        height: 40em;
+    }
 }
-*/
 
 .bg-dark {
     background-color:black!important;
@@ -203,6 +199,27 @@ a.indarklink:hover {
 .homepage .card-title.text-center {
     padding-top:40px;
 }
+
+.homepage {
+    background-color:black;
+}
+@media (min-width: 991px) {
+   .homepage {
+       height:910px;
+   }
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+    .homepage {
+        height:710px;
+    }
+ }
+
+ @media (max-width: 766px) {
+    .homepage {
+        height:1000px;
+    }
+ }
 
 .card-title, .shadow {
     text-shadow:1px 1px 2px black;
