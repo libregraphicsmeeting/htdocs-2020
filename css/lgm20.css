@@ -291,3 +291,17 @@ a.maplink {
 .form-check label {
     padding-left:0.8em;
 }
+
+#sendgood:target {
+    background-color:green;
+    display;visibility;
+}
+
+#sendbad:target {
+    background-color:red;
+    display:visibility;
+}
+
+#sendbad, #sendgood {
+    display:none;
+}
