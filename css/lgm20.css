@@ -292,16 +292,11 @@ a.maplink {
     padding-left:0.8em;
 }
 
-#sendgood:target {
+#sendgood {
     background-color:green;
-    display;visibility;
 }
 
-#sendbad:target {
+#sendbad {
     background-color:red;
-    display:visibility;
 }
 
-#sendbad, #sendgood {
-    display:none;
-}
