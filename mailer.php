@@ -32,9 +32,10 @@ if (array_key_exists('first_name', $_POST)) {
     $mail->Body = $_POST['message'];
     //$mail->addAttachment('test.txt');
     if (!$mail->send()) {
-        echo 'Mailer Error: ' . $mail->ErrorInfo;
+        header('Location:en/contact_fail.html');
+        #echo 'Mailer Error: ' . $mail->ErrorInfo;
     } else {
-        echo 'Message sent!';
-        #header('Location:en/index.html');
+        #echo 'Message sent!';
+        header('Location:en/contact_sent.html');
     }
 }
