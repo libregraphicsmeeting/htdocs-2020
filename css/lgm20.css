@@ -203,21 +203,27 @@ a.indarklink:hover {
 .homepage {
     background-color:black;
 }
-@media (min-width: 991px) {
+@media (min-width: 1200px) {
    .homepage {
-       height:910px;
+       height:940px;
    }
 }
 
-@media (min-width: 767px) and (max-width: 990px) {
+@media (min-width: 992px) and (max-width: 1199px) {
     .homepage {
-        height:710px;
+        height:830px;
+    }
+ }
+ 
+ @media (min-width: 768px) and (max-width: 991px) {
+    .homepage {
+        height:680px;
     }
  }
 
- @media (max-width: 766px) {
+ @media (max-width: 767px) {
     .homepage {
-        height:1000px;
+        height:1130px;
     }
  }
 
