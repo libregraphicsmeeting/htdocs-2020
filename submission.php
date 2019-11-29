@@ -41,6 +41,13 @@ function test(){
     checks_test("https://aeiu eiu eia eiu eiua eiu ea ie auiei ei eiu eiua eiu eiu ei ie ii ie ieiue iatenpod ateitne updte tise pdt eit end.com", 3, 30);
 }
 
+function save_as_csv($list){
+    $fp = fopen('data_proposals.csv', 'a');
+    fputcsv($fp, $list, ";" ,'"', "\\");
+    fclose($fp);
+}
+
+
 if (isset($_POST['title'])){
     try {
         $bd = get_bd();
@@ -89,12 +96,18 @@ if (isset($_POST['title'])){
         }
         $sth->bindParam(":comments", $m);
         $sth->execute();
-        header('Location: en/program.html');
+        $csv = [d($b), d($c), d($d), d($e), d($f), d($g), d($h), d($i), d($j), d($k), d($l), d($m)];
+        //$csv = [$b, $c, $d, $e, $f, $g, $h, $i, $j, $k, $l, $m];
+        save_as_csv($csv);
+        //header('Location: en/program.html');
     } catch( PDOException $Exception ) {
         echo $Exception->getMessage( );
         echo $Exception->getCode( );
     }
 }
 
+function d($s){
+    return html_entity_decode($s);
+}
 
 ?>
