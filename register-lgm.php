@@ -15,7 +15,7 @@ if (isset($_POST['first_name']) and isset($_POST['type'])){
         $d = checks($_POST['last_name'], 0, 50);
         $e = filter_var(checks($_POST['email'], 2), FILTER_VALIDATE_EMAIL);
         $f = checks($_POST['organization'], 0, 20);
-        $g = checks($_POST['participant_list'], 0, 256);
+        $g = $_POST['participant_list'];
         $h = checks($_POST['comments'], 0, 256);
         $csv = [d($c), d($d), d($e), d($f), d($g), d($h)];
 
