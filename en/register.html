@@ -104,40 +104,41 @@
 
                  <div class="row">   
                    <article class="col-lg-8 offset-lg-2 col-md-12 cor4 pb-4">                                   
-                      <form class="mt-4" id="Confcall">
+                      <form class="mt-4" id="Confcall" method="post" action="../register-lgm.php">
                         <h3 class="mt-4 mb-4 text-center">About you</h3>
                         <hr>                          
                           <div class="form-group">
                               <label class="h5">Your first name *</label>
-                              <input type="text" name="" id="" placeholder="First Name" class="form-control required" required>
+                              <input type="hidden" name="type" value="register" />
+                              <input type="text" name="first_name" id="first_name" placeholder="First Name" class="form-control required" required>
                           </div>
                           <div class="form-group">
                               <label class="h5">Your last name *</label>
-                              <input type="text" name="" id="" placeholder="Last Name" class="form-control required" required>
+                              <input type="text" name="last_name" id="last_name" placeholder="Last Name" class="form-control required" required>
                           </div>
                           <div class="form-group">
                               <label class="h5">Your email *</label>
-                              <input type="email" name="" id="" placeholder="Email address" class="form-control required" required>
+                              <input type="email" name="email" id="email" placeholder="Email address" class="form-control required" required>
                           </div>
                           <div class="form-group">
                                 <label class="h5">Your project or organization</label>
-                                <input type="text" name="" id="" placeholder="Name of the project" class="form-control required" required>
+                                <input type="text" name="organization" id="organization" placeholder="Name of the project" class="form-control required" required>
                             </div>
                           <hr>                          
                           <h3 class="mb-4 mt-4 text-center">Participant list</h3>
                           <hr>
                           <p class="form-field__explanation">The participant list includes your name, nickname, website and project.</p>
                           <div class="form-check form-group">
-                            <input type="radio" class="form-check-input" id="">
+                            <input type="radio" class="form-check-input" id="participant_list" name="participant_list" value="show">
                             <label class="form-check-label" for=""> Yes ! Please show my name on the participant list !</label>
                           </div>
                           <div class="form-check form-group">
-                            <input type="radio" class="form-check-input" id="">
+                            <input type="radio" class="form-check-input"  id="participant_list" name="participant_list" value="hide">
                             <label class="form-check-label" for=""> No, don't show my name on the participant list.</label>
                            </div>
                            <div class="form-group">
                               <label class="h5">Comments, questions or other needs</label>
-                              <textarea placeholder="Your message" class="form-control"></textarea>
+                              <textarea placeholder="Your message" class="form-control" id="comments" name="comments"></textarea>
                           </div>
                           <p>If you won't be able to attend all days, please emphasize your available dates using this field.</p>
                            <button class="btn btn-cor5 btn-block btn-lg" type="submit">Submit</button>
