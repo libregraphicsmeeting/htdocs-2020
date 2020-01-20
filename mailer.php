@@ -1,5 +1,9 @@
 <?php
 
+ini_set("log_errors", 1);
+ini_set("error_log", getcwd()."/php-error.log");
+use PHPMailer\PHPMailer\PHPMailer;
+require 'vendor/autoload.php';
 require_once("base.php");
 
 if (array_key_exists('first_name', $_POST)) {
