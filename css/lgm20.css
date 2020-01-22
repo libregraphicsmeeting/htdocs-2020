@@ -18,6 +18,11 @@
     border-radius:0; 
 }
 
+#venuepage .card {
+    background-color:#51d5ea;
+    border:1px solid #51d5ea;
+}
+
 
 @media (max-width: 768px) {
     .card {
