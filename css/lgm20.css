@@ -186,6 +186,12 @@ a.indarklink:hover {
     color:white;
 }
 
+a.inwhiteklink {
+    color:black;
+}
+a.inwhiteklink:hover {
+    text-decoration:underline;
+}
 .navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
     color:#51d5ea;
 }
@@ -305,4 +311,3 @@ a.maplink {
 .sendbad {
     background-color:red;
 }
-
