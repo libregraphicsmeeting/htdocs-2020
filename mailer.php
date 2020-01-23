@@ -12,6 +12,7 @@ if (array_key_exists('first_name', $_POST)) {
     $mail->setFrom($_POST['email'], $_POST['first_name']);
     $mail->addReplyTo($_POST['email'], $_POST['first_name']);
     $mail->addAddress('lgm@afgral.org', 'Afgral LGM'); // adds new recipients
+    $mail->addCC($_POST['email'], $_POST['first_name']);
     $mail->Subject = '[CONTACT] LGM Website';
     $mail->isHTML(false);
     $mail->Body = "sample text";

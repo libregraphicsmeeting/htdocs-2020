@@ -24,16 +24,17 @@ if (isset($_POST['first_name']) and isset($_POST['type'])){
         $mail->setFrom($_POST['email'], $_POST['first_name']);
         $mail->addReplyTo($_POST['email'], $_POST['first_name']);
         $mail->addAddress('lgm@afgral.org', 'Afgral LGM'); // adds new recipients
+        $mail->addCC($_POST['email'], $_POST['first_name']);
         $mail->Subject = '[REGISTER] '.$_POST['first_name'];
         $mail->isHTML(false);
         $mail->Body = implode(";", $csv);
         if (!$mail->send()) {
                 # Message not sent !
-            header('Location:en/contact_fail.html');
+            header('Location:en/register_fail.html');
                 #echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
                 # Message sent!
-            header('Location:en/contact_sent.html');
+            header('Location:en/register_sent.html');
         }
         //header('Location: en/program.html');
     } catch( PDOException $Exception ) {

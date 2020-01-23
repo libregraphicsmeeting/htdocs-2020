@@ -70,16 +70,17 @@ if (isset($_POST['title'])){
             $mail->addAddress('lgm@afgral.org', 'Afgral LGM');
             $mail->setFrom($_POST['email'], $_POST['first_name']);
             $mail->addReplyTo($_POST['email'], $_POST['first_name']);
+            $mail->addCC($_POST['email'], $_POST['first_name']);
             $mail->Subject = "[CONF] ".$_POST['first_name'];
             $mail->Body = implode(";", $csv);
             if (!$mail->send()) {
-                header('Location:en/contact_fail.html');
+                header('Location:en/submission_fail.html');
                 #echo 'Mailer Error: ' . $mail->ErrorInfo;
             } else {
-                header('Location:en/contact_sent.html');
+                header('Location:en/submission_sent.html');
             }
         } else {
-                header('Location:en/contact_fail.html');
+                header('Location:en/submission_fail.html');
         }
     } catch( PDOException $Exception ) {
         echo $Exception->getMessage( );
