@@ -110,15 +110,15 @@
                         <hr>
                           <div class="form-group">
                             <label class="h5">Title of your conference, presentation, or meeting *</label>
-                              <input type="text" name="title" id="title" placeholder="Title of your presentation, workshop or meeting" class="form-control required" required>
+                              <input type="text" name="title" id="title" maxlength="100" placeholder="Title of your presentation, workshop or meeting" class="form-control required" required>
                           </div>
                           <div class="form-group">
                               <label class="h5">Your first name *</label>
-                              <input type="text" name="first_name" id="first_name" placeholder="First Name" class="form-control required" required>
+                              <input type="text" name="first_name" id="first_name" placeholder="First Name" maxlength="50" class="form-control required" required>
                           </div>
                           <div class="form-group">
                               <label class="h5">Your last name *</label>
-                              <input type="text" name="last_name" id="last_name" placeholder="Last Name" class="form-control required" required>
+                              <input type="text" name="last_name" id="last_name" placeholder="Last Name" maxlength="50" class="form-control required" required>
                           </div>
                           <div class="form-group">
                               <label class="h5">Your email *</label>
@@ -151,20 +151,20 @@
                           </div>
                           <div class="form-group">
                               <label class="h5">Summary of your presentation (200 words) *</label>
-                              <textarea id="pres_summary" name="pres_summary" placeholder="Your summary" class="form-control required" required></textarea>
+                              <textarea id="pres_summary" name="pres_summary" placeholder="Your summary" maxlength="1300" class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
                               <label class="h5">Short biography (150 words) *</label>
-                              <textarea id="pres_bio" name="pres_bio" placeholder="Your bio" class="form-control required" required></textarea>
+                              <textarea id="pres_bio" name="pres_bio" placeholder="Your bio" maxlength="1000" class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
                               <label class="h5">Additional speakers</label>
-                              <textarea id="pres_add_speaker" name="pres_add_speaker" placeholder="Friends" class="form-control"></textarea>
+                              <textarea id="pres_add_speaker" name="pres_add_speaker" placeholder="Friends" maxlength="500" class="form-control"></textarea>
                               <p class="mt-4">If your presentation will have more than one speaker, please list the additional names and email addresses in this field.</p>
                           </div>
                           <div class="form-group">
                               <label class="h5">Website</label>
-                              <input id="website" name="website" type="url" placeholder="https://..." class="form-control">
+                              <input id="website" name="website" type="url" maxlength="200" placeholder="https://..." class="form-control">
                           </div>
                          <hr>
                           <h3 class="mt-4 mb-5 text-center">Travel costs reimbursement</h3>
@@ -181,7 +181,7 @@
                            <p>If your trip is not already funded otherwise, LGM will attempt to cover your travel costs afterwards (travel only, no accommodation or meals), within the limits of our budget. For this year we will have some restrictions - and refunding usually only takes place several months after the conference itself.</p>
                            <div class="form-group"> 
                               <label class="h5">Comments, questions or other needs</label>
-                              <textarea id="comments" name="comments" placeholder="Your message" class="form-control"></textarea>
+                              <textarea id="comments" name="comments" placeholder="Your comments" maxlength="1000" class="form-control"></textarea>
                           </div>
                           <p>If you won't be able to attend all days, please emphasize your available dates using this field.</p>
                            <button class="btn btn-cor5 btn-block btn-lg" type="submit">Submit</button>

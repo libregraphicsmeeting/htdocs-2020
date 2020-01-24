@@ -14,7 +14,7 @@ if (isset($_POST['title'])){
     try {
         $bd = get_bd();
         $sth = $bd->prepare('INSERT INTO proposals (pres_title, speaker_first_name, speaker_last_name, speaker_email, pres_format, pres_summary, pres_bio, pres_add_speaker, project_website, reimburse, amount, comments) VALUES (:title, :first_name, :last_name, :email, :pres_format, :pres_summary, :pres_bio, :pres_add_speaker, :website, :reimburse, :amount, :comments)');
-        $b = checks($_POST['title'], 0, 50);
+        $b = checks($_POST['title'], 0, 100);
         $sth->bindParam(":title", $b);
         $c = checks($_POST['first_name'], 0, 50);
         $sth->bindParam(":first_name", $c);
@@ -24,12 +24,12 @@ if (isset($_POST['title'])){
         $sth->bindParam(":email", $e);
         $f = checks($_POST['pres_format'], 0, 20);
         $sth->bindParam(":pres_format", $f);
-        $g = checks($_POST['pres_summary'], 0, 256);
+        $g = checks($_POST['pres_summary'], 0, 1300);
         $sth->bindParam(":pres_summary", $g);
-        $h = checks($_POST['pres_bio'], 0, 256);
+        $h = checks($_POST['pres_bio'], 0, 1000);
         $sth->bindParam(":pres_bio", $h);
         if (!empty($_POST['pres_add_speaker'])){
-            $i = checks($_POST['pres_add_speaker'], 0, 200);
+            $i = checks($_POST['pres_add_speaker'], 0, 500);
         } else {
             $i = "";
         }
@@ -52,7 +52,7 @@ if (isset($_POST['title'])){
         } 
         $sth->bindParam(":amount", $k);
         if (!empty($_POST['comments'])){
-            $m = checks($_POST['comments'], 0, 256);
+            $m = checks($_POST['comments'], 0, 1000);
         } else {
             $m = "";
         }
