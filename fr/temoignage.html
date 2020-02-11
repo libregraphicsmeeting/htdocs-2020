@@ -13,7 +13,7 @@
     <!-- Css custom -->
     <link rel="stylesheet" href="../css/lgm20.css" />
 
-    <title>Petit interview</title>
+    <title>Retours d'expérience</title>
   </head>
   <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark">
@@ -105,25 +105,35 @@
 
                  <div class="row">   
                    <article class="col-lg-8 offset-lg-2 col-md-12 cor4 pb-4">                                   
-                      <form class="mt-4" id="Confcall" action="" method="post">
+                      <form class="mt-4" id="Confcall" action="../feedback.php" method="post">
                           <div class="form-group">
-                            <label class="h5">A quelles éditions avez-vous été aux LGM ? *</label>
-                              <textarea name="attendLGM" id="attendLGM" maxlength="300" placeholder="Saarbruck, Sevilla, toutes sauf Toronto..." class="form-control required" required></textarea>
+                            <label class="h5">Quelles éditions des LGM avez-vous été ? *</label>
+                              <textarea name="attendLGM" id="attendLGM" maxlength="300" placeholder="Saarbruck, Sevilla..." class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
-                              <label class="h5">Qu'est-ce que les LGM ont apporté à votre projet communautaire ?*</label>
-                              <textarea name="cons" id="cons" placeholder="De nouvelles contributions, retour d'artistes..." maxlength="500" class="form-control required" required></textarea>
+                              <label class="h5">Qu'est-ce que votre participation a apporté à votre projet ? *</label>
+                              <textarea name="cons" id="cons" placeholder="De nouveaux contributeurs... (max length : 500)" maxlength="500" class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
-                              <label class="h5">Si vous recommandez les LGM à d'autres projets libres, que leur diriez-vous ? *</label>
-                              <textarea id="progaganda" name="propaganda" placeholder="Cela peut vous apporter un regain de motivation et de sérieux retours techniques pour améliorer votre projet..." maxlength="1000" class="form-control required" required></textarea>
+                              <label class="h5">Quelle fut votre LGM préféré ? *</label>
+                              <textarea name="favlgm" id="favlgm" placeholder="Mes LGM préféré était ... " maxlength="500" class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
-                            <label class="h5">Souhaitez vous nous indiquer votre nom ?</label>
-                            <input type="text" id="name" name="name" placeholder="Jonh Doe" maxlength="100" class="form-control required">
+                              <label class="h5">et Pourquoi ? (500 char max :-) ) ? *</label>
+                              <textarea name="favreason" id="favreason" placeholder="J'ai préféré l'édition 20.. parce que " maxlength="500" class="form-control required" required></textarea>
+                          </div>
+                          <div class="form-group">
+                              <label class="h5">Si vous recommanderiez la participation aux LGM, que diriez-vous ? *</label>
+                              <textarea id="progaganda" name="propaganda" placeholder="Cela peut apporter un boost de motivation et de connaissances techniques...(max 1000 caractères)" maxlength="1000" class="form-control required" required></textarea>
+                          </div>
+                          <div class="form-group">
+                            <label class="h5">Si vous le souhaitez, dites-nous quel est votre nom ? </label>
+                            <input type="text" id="name" name="name" placeholder="Martin Jean ou pseudo" maxlength="100" class="form-control">
                         </div>               
-                         
-                           <button class="btn btn-cor5 btn-block btn-lg" type="submit">Envoyer</button>
+                          <div class="form-group">
+                            <p>En nous soumettant vos réponse, vous acceptez et comprenez que le contenu servira à soutenir et diffuser la publicité autour de cet événement.</p>
+                          </div>
+                           <button class="btn btn-cor5 btn-block btn-lg" type="submit">Soumettre</button>
                           </form>
                 </article> 
               </div><!-- /row -->
