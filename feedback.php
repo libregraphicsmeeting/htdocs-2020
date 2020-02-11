@@ -29,11 +29,11 @@ if (isset($_POST['cons'])){
         $mail->Body = implode("\n", $csv);
         if (!$mail->send()) {
                 # Message not sent !
-            header('Location:en/witness_fail.html');
+            header('Location:en/feedback_fail.html');
                 #echo 'Mailer Error: ' . $mail->ErrorInfo;
         } else {
                 # Message sent!
-            header('Location:en/witness_sent.html');
+            header('Location:en/feedback_sent.html');
         }
         //header('Location: en/program.html');
     } catch( PDOException $Exception ) {
