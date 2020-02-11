@@ -99,30 +99,40 @@
                 <div class="row">
                     <div class="col-12">
                         <h2 class="text-center">Testify your previous experience on LGM</h2>
-                        <p class="text-center mt-4">We plan in creat a marketing document for presentation about LGM. Tell us about yours LGM.</p>
+                        <p class="text-center mt-4">We plan to create a marketing document about LGM history. We hope it could help get more sponsors for upcoming editions. Please help us by telling us about your LGM experience.</p>
                     </div><!-- /col12-->
                  </div><!-- /row-->
 
                  <div class="row">   
                    <article class="col-lg-8 offset-lg-2 col-md-12 cor4 pb-4">                                   
-                      <form class="mt-4" id="Confcall" action="" method="post">
+                      <form class="mt-4" id="Confcall" action="../witness.php" method="post">
                           <div class="form-group">
                             <label class="h5">Which previous editions of LGM did you attend?*</label>
                               <textarea name="attendLGM" id="attendLGM" maxlength="300" placeholder="Saarbruck, Sevilla, all less Toronto..." class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
                               <label class="h5">What did your presence at LGM brought to your community project?*</label>
-                              <textarea name="cons" id="fcons" placeholder="New contributors, motivation,..." maxlength="500" class="form-control required" required></textarea>
+                              <textarea name="cons" id="cons" placeholder="New contributors, motivation,... (max length : 500)" maxlength="500" class="form-control required" required></textarea>
+                          </div>
+                          <div class="form-group">
+                              <label class="h5">Which was your favorite LGM ?*</label>
+                              <textarea name="favlgm" id="favlgm" placeholder="my favorite LGM is…" maxlength="500" class="form-control required" required></textarea>
+                          </div>
+                          <div class="form-group">
+                              <label class="h5">Why (in 500 char max :-) ) ?*</label>
+                              <textarea name="favreason" id="favreason" placeholder="I prefer 2020 edition because…" maxlength="500" class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
                               <label class="h5">If you recommended other community projects to participate to LGM, what would you tell them?*</label>
-                              <textarea id="progaganda" name="propaganda" placeholder="Because of improvment on new skills..." maxlength="1000" class="form-control required" required></textarea>
+                              <textarea id="progaganda" name="propaganda" placeholder="Because of improvment on new skills...(max length : 1000)" maxlength="1000" class="form-control required" required></textarea>
                           </div>
                           <div class="form-group">
                             <label class="h5">If you want, inform us about your name</label>
-                            <input type="text" id="name" name="name" placeholder="Jonh Doe" maxlength="100" class="form-control required">
+                            <input type="text" id="name" name="name" placeholder="Jonh Doe or nick" maxlength="100" class="form-control">
                         </div>               
-                         
+                          <div class="form-group">
+                            <p>By submitting this form, you understand and accept that its content can be used for LibreGraphicsMeeting Propaganda, in documents publicly available.</p>
+                          </div>
                            <button class="btn btn-cor5 btn-block btn-lg" type="submit">Submit</button>
                           </form>
                 </article> 
