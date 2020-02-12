@@ -205,6 +205,30 @@ a.inwhiteklink:hover {
     color:white;
 }
 
+
+/* -- Sponsors statement */
+.gold{
+    background-color:#ab8d3f;
+    border-radius:6px;
+    color:white;
+}
+
+.silver {
+    background-color:#abada9;
+    border-radius:6px;
+}
+
+.bronze {
+    background-color: #873e17;
+    border-radius: 6px;
+    color:white;
+}
+
+#sponsors .card {
+    border-radius:6px;
+    border:1px solid rgba(0,0,0,0); 
+}
+
 /* -- Home page */
 
 .homepage .card-title.text-center {
@@ -214,19 +238,9 @@ a.inwhiteklink:hover {
 .homepage {
     background-color:black;
 }
-
-.sponsors {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 @media (min-width: 1200px) {
    .homepage {
        height:940px;
-   }
-   .sponsors {
-    padding: 1em;
    }
 }
 
@@ -234,26 +248,17 @@ a.inwhiteklink:hover {
     .homepage {
         height:830px;
     }
-    .sponsors {
-    padding: 1em;
-   }
  }
  
  @media (min-width: 768px) and (max-width: 991px) {
     .homepage {
         height:680px;
     }
-    .sponsors {
-        padding: 1em;
-    }
  }
 
  @media (max-width: 767px) {
     .homepage {
         height:1130px;
-    }
-    .sponsors {
-        padding: 3em;
     }
  }
 
@@ -296,6 +301,7 @@ a.maplink {
     color:black;
 }
 
+
 /* -- Contact */
 
 .contactpage {
@@ -334,7 +340,4 @@ a.maplink {
 
 .sendbad {
     background-color:red;
-}
-.test {
-    background-color:white;
 }
