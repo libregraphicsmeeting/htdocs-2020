@@ -238,9 +238,19 @@ a.inwhiteklink:hover {
 .homepage {
     background-color:black;
 }
+
+.sponsors {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 1200px) {
    .homepage {
        height:940px;
+   }
+   .sponsors {
+    padding: 1em;
    }
 }
 
@@ -248,17 +258,26 @@ a.inwhiteklink:hover {
     .homepage {
         height:830px;
     }
+    .sponsors {
+    padding: 1em;
+   }
  }
  
  @media (min-width: 768px) and (max-width: 991px) {
     .homepage {
         height:680px;
     }
+    .sponsors {
+        padding: 1em;
+    }
  }
 
  @media (max-width: 767px) {
     .homepage {
         height:1130px;
+    }
+    .sponsors {
+        padding: 3em;
     }
  }
 
