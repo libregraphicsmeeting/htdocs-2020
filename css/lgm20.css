@@ -90,6 +90,12 @@ h3 {
 
 /* ---- Colors */
 
+.importantinfo {
+    background-color:#f05874 !important;
+    color: white;
+    text-align: center !important;
+}
+
 .cor1 {
     background-color:#51d5ea;
 }
