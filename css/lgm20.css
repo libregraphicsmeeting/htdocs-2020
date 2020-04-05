@@ -163,6 +163,17 @@ a.btn-cor1:hover {
     border:1px solid black;
 }
 
+.btn-cor4 {
+    background-color: #f05874ff;
+    color:white;
+}
+
+.btn-cor4:hover {
+    background-color:transparent;
+    border:1px white solid;
+    color:white;
+}
+
 .btn-cor5 {
     background-color:black;
     color:white;
